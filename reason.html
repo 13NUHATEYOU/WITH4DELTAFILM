@@ -7,16 +7,13 @@
     <link rel="stylesheet" href="https://unpkg.com/98.css@0.1.4/build/98.css" />
   </head>
   <script>
-    function saveLocal(reason) {
+    const form = document.querySelector("#form"); 
+    const input = document.querySelector("#text18");
+    form.addEventListener("submit", saveReason);
+    function saveReason(event) {
+      const reason = input.value;
       localStorage.setItem("reason", reason);
       window.location.href = "ok.html";
-    }
-
-    function saveReason() {
-      const form = document.getElementById("form"); 
-      const input = form.getElementById("text18");
-      const reason = input.value;
-      saveLocal(reason);
     }
 
   </script>
@@ -40,7 +37,7 @@
   <form id="form">
     <div class="field-row-stacked" style="width: 200px; margin: 32px;">
       <label for="text18">이곳에 쓰십시오.</label>
-      <input id="text18" type="text"/> <button onclick="saveReason();" style="width: 75px;">제출</button>
+      <input id="text18" type="text"/> <input type="submit" style="width: 75px;" value="제출"/>
     </div>
   </form>
   </body>
