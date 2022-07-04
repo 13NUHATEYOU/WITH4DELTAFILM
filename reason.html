@@ -10,7 +10,7 @@
     const form = document.querySelector("#form"); 
     const input = document.querySelector("#text18");
 
-    function saveReason(event) {
+    function saveReason() {
       const reason = input.value;
       if (reason == "" || reason == null) {
         alert("이유를 말하여 주십시오.");
@@ -38,10 +38,10 @@
         <p>이유가 무엇입니까?</p>
       </div>
     </div>
-  <form id="form" action="saveReason();">
+  <form id="form">
     <div class="field-row-stacked" style="width: 200px; margin: 32px;">
       <label for="text18">이곳에 쓰십시오.</label>
-      <input id="text18" type="text"/> <input type="submit" style="width: 75px;"/>
+      <input id="text18" type="text"/> <button onclick="saveReason();">⋯⋯.</button>
     </div>
   </form>
   </body>
