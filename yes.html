@@ -14,11 +14,10 @@
     }
     </style> 
   <script>
-    const newFlakes = document.createElement('div');
-    newFlakes.setAttribute("class", "flake");
-
     document.addEventListener("DOMContentLoaded", function() {
       for (var i = 0; i < 150; i++) {
+        const newFlakes = document.createElement('div');
+        newFlakes.setAttribute("class", "flake");
         document.getElementsByClassName("snow")[0].appendChild(newFlakes);
       }
     });
