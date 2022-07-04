@@ -9,17 +9,16 @@
   </head>
   <style>
     body { 
-      background-image: url('yes_background.png');
+      background-image: url('yes_background.jpg');
       background-repeat : no-repeat;
     }
     </style> 
   <script>
-    var flakes = 150;
     const newFlakes = document.createElement('div');
     newFlakes.setAttribute("class", "flakes");
 
     document.addEventListener("DOMContentLoaded", function() {
-      for (var i = 0; i < flakes; i++) {
+      for (var i = 0; i < 150; i++) {
         document.getElementsByClassName("snow")[0].appendChild(newFlakes);
       }
     });
