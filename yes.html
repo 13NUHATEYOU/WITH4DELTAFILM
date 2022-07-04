@@ -15,13 +15,12 @@
     </style> 
   <script>
     var flakes = 150;
-    var snow = document.getElementsByClassName("snow")[0];
     const newFlakes = document.createElement('div');
     newFlakes.setAttribute("class", "flakes");
 
     document.addEventListener("DOMContentLoaded", function() {
       for (var i = 0; i < flakes; i++) {
-        snow.appendChild(newFlakes);
+        document.getElementsByClassName("snow")[0].appendChild(newFlakes);
       }
     });
   </script>
