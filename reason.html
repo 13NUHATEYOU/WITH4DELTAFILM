@@ -8,17 +8,17 @@
   </head>
   <script>
     const form = document.querySelector("#form"); 
-    const input = form.querySelector("input");
+    const input = form.querySelector("#text18");
 
     function saveLocal(reason) {
       localStorage.setItem("reason", reason);
+      location.href = "ok.html";
     }
 
     function saveReason(event) {
       event.preventDefault();
       const reason = input.value;
       saveLocal(reason);
-      location.href = "ok.html";
     }
 
   </script>
