@@ -6,7 +6,22 @@
     <link rel="shortcut icon" type="image/x-icon" href="https://13nuhateyou.github.io/WITH4DELTAFILM/favicon.ico">
     <link rel="stylesheet" href="https://unpkg.com/98.css@0.1.4/build/98.css" />
   </head>
+  <script>
+    const form = document.querySelector("#form"); 
+    const input = form.querySelector("input");
 
+    function saveLocal(reason) {
+      localStorage.setItem("reason", reason);
+    }
+
+    function saveReason(event) {
+      event.preventDefault();
+      const reason = input.value;
+      saveLocal(reason);
+      location.href = "ok.html";
+    }
+
+  </script>
   <body>
     <div class="window" style="margin: 32px; width: 250px;">
       <div class="title-bar">
@@ -24,10 +39,11 @@
         <p>이유가 무엇입니까?</p>
       </div>
     </div>
-
+  <form id="form">
     <div class="field-row-stacked" style="width: 200px; margin: 32px;">
       <label for="text18">이곳에 쓰십시오.</label>
-      <input id="text18" type="text"/> <button onclick="" style="width: 75px;">제출</button>
+      <input id="text18" type="text"/> <button onclick="saveReason()" style="width: 75px;">제출</button>
     </div>
+  </form>
   </body>
 </html>
