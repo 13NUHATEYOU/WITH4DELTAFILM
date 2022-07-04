@@ -5,9 +5,28 @@
     <meta charset="UTF-8" />
     <link rel="shortcut icon" type="image/x-icon" href="https://13nuhateyou.github.io/WITH4DELTAFILM/favicon.ico">
     <link rel="stylesheet" href="https://unpkg.com/98.css@0.1.4/build/98.css" />
+    <link rel="stylesheet" href="snow.css" />
   </head>
+  <style>
+    body { 
+      background-image: url('yes_background.png');
+      background-repeat : no-repeat;
+    }
+    </style> 
+  <script>
+    var flakes = 150;
+    var snow = document.getElementsByClassName("snow");
+    const newFlakes = document.createElement('div');
+    newFlakes.setAttribute("class", "flakes");
 
+    $(function(){
+      for (var i = 0; i < flakes; i++) {
+        document.snow.appendChild(newFlakes);
+      }
+    });
+  </script>
   <body>
+    <div class="snow"></div>
     <div class="window" style="margin: 32px; width: 250px;">
       <div class="title-bar">
         <div class="title-bar-text">

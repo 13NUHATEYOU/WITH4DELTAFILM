@@ -1,0 +1,1996 @@
+@import url(https://fonts.googleapis.com/css?family=Varela+Round);
+.snow {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+}
+
+.flake {
+  position: absolute;
+  border-radius: 50%;
+  -webkit-transform: translateY(0) rotateX(0) rotateY(0);
+  -moz-transform: translateY(0) rotateX(0) rotateY(0);
+  -ms-transform: translateY(0) rotateX(0) rotateY(0);
+  -o-transform: translateY(0) rotateX(0) rotateY(0);
+  transform: translateY(0) rotateX(0) rotateY(0);
+  background-image: -owg-linear-gradient(180deg, rgba(255, 255, 255, 0) 30%, #ffffff 50%, #ffffff 60%, rgba(255, 255, 255, 0) 60%), -owg-linear-gradient(90deg, rgba(255, 255, 255, 0) 30%, #ffffff 50%, #ffffff 60%, rgba(255, 255, 255, 0) 60%), -owg-linear-gradient(45deg, rgba(255, 255, 255, 0) 33%, #ffffff 53%, #ffffff 57%, rgba(255, 255, 255, 0) 65%), -owg-linear-gradient(135deg, rgba(255, 255, 255, 0) 33%, #ffffff 53%, #ffffff 57%, rgba(255, 255, 255, 0) 65%);
+  background-image: -webkit-linear-gradient(180deg, rgba(255, 255, 255, 0) 30%, #ffffff 50%, #ffffff 60%, rgba(255, 255, 255, 0) 60%), -webkit-linear-gradient(90deg, rgba(255, 255, 255, 0) 30%, #ffffff 50%, #ffffff 60%, rgba(255, 255, 255, 0) 60%), -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0) 33%, #ffffff 53%, #ffffff 57%, rgba(255, 255, 255, 0) 65%), -webkit-linear-gradient(135deg, rgba(255, 255, 255, 0) 33%, #ffffff 53%, #ffffff 57%, rgba(255, 255, 255, 0) 65%);
+  background-image: -moz-linear-gradient(180deg, rgba(255, 255, 255, 0) 30%, #ffffff 50%, #ffffff 60%, rgba(255, 255, 255, 0) 60%), -moz-linear-gradient(90deg, rgba(255, 255, 255, 0) 30%, #ffffff 50%, #ffffff 60%, rgba(255, 255, 255, 0) 60%), -moz-linear-gradient(45deg, rgba(255, 255, 255, 0) 33%, #ffffff 53%, #ffffff 57%, rgba(255, 255, 255, 0) 65%), -moz-linear-gradient(135deg, rgba(255, 255, 255, 0) 33%, #ffffff 53%, #ffffff 57%, rgba(255, 255, 255, 0) 65%);
+  background-image: -o-linear-gradient(180deg, rgba(255, 255, 255, 0) 30%, #ffffff 50%, #ffffff 60%, rgba(255, 255, 255, 0) 60%), -o-linear-gradient(90deg, rgba(255, 255, 255, 0) 30%, #ffffff 50%, #ffffff 60%, rgba(255, 255, 255, 0) 60%), -o-linear-gradient(45deg, rgba(255, 255, 255, 0) 33%, #ffffff 53%, #ffffff 57%, rgba(255, 255, 255, 0) 65%), -o-linear-gradient(135deg, rgba(255, 255, 255, 0) 33%, #ffffff 53%, #ffffff 57%, rgba(255, 255, 255, 0) 65%);
+  background-image: linear-gradient(180deg, rgba(255, 255, 255, 0) 30%, #ffffff 50%, #ffffff 60%, rgba(255, 255, 255, 0) 60%), linear-gradient(90deg, rgba(255, 255, 255, 0) 30%, #ffffff 50%, #ffffff 60%, rgba(255, 255, 255, 0) 60%), linear-gradient(45deg, rgba(255, 255, 255, 0) 33%, #ffffff 53%, #ffffff 57%, rgba(255, 255, 255, 0) 65%), linear-gradient(135deg, rgba(255, 255, 255, 0) 33%, #ffffff 53%, #ffffff 57%, rgba(255, 255, 255, 0) 65%);
+}
+
+.flake:nth-child(1) {
+  width: 15px;
+  height: 15px;
+  top: -76px;
+  left: 24%;
+  opacity: 0.62;
+  filter: blur(3px);
+  -webkit-animation: 67s flakes linear infinite;
+  -moz-animation: 67s flakes linear infinite;
+  -o-animation: 67s flakes linear infinite;
+  animation: 67s flakes linear infinite;
+}
+
+.flake:nth-child(2) {
+  width: 7px;
+  height: 7px;
+  top: -525px;
+  left: 30%;
+  opacity: 0.86;
+  filter: blur(3px);
+  -webkit-animation: 63s flakes linear infinite;
+  -moz-animation: 63s flakes linear infinite;
+  -o-animation: 63s flakes linear infinite;
+  animation: 63s flakes linear infinite;
+}
+
+.flake:nth-child(3) {
+  width: 17px;
+  height: 17px;
+  top: -144px;
+  left: 26%;
+  opacity: 0.95;
+  filter: blur(4px);
+  -webkit-animation: 33s flakes linear infinite;
+  -moz-animation: 33s flakes linear infinite;
+  -o-animation: 33s flakes linear infinite;
+  animation: 33s flakes linear infinite;
+}
+
+.flake:nth-child(4) {
+  width: 7px;
+  height: 7px;
+  top: -555px;
+  left: 53%;
+  opacity: 0.75;
+  filter: blur(4px);
+  -webkit-animation: 68s flakes linear infinite;
+  -moz-animation: 68s flakes linear infinite;
+  -o-animation: 68s flakes linear infinite;
+  animation: 68s flakes linear infinite;
+}
+
+.flake:nth-child(5) {
+  width: 14px;
+  height: 14px;
+  top: -180px;
+  left: 98%;
+  opacity: 0.73;
+  filter: blur(4px);
+  -webkit-animation: 70s flakes linear infinite;
+  -moz-animation: 70s flakes linear infinite;
+  -o-animation: 70s flakes linear infinite;
+  animation: 70s flakes linear infinite;
+}
+
+.flake:nth-child(6) {
+  width: 20px;
+  height: 20px;
+  top: -479px;
+  left: 44%;
+  opacity: 0.52;
+  filter: blur(3px);
+  -webkit-animation: 53s flakes linear infinite;
+  -moz-animation: 53s flakes linear infinite;
+  -o-animation: 53s flakes linear infinite;
+  animation: 53s flakes linear infinite;
+}
+
+.flake:nth-child(7) {
+  width: 20px;
+  height: 20px;
+  top: -373px;
+  left: 55%;
+  opacity: 0.94;
+  filter: blur(3px);
+  -webkit-animation: 38s flakes linear infinite;
+  -moz-animation: 38s flakes linear infinite;
+  -o-animation: 38s flakes linear infinite;
+  animation: 38s flakes linear infinite;
+}
+
+.flake:nth-child(8) {
+  width: 6px;
+  height: 6px;
+  top: -60px;
+  left: 40%;
+  opacity: 0.59;
+  filter: blur(4px);
+  -webkit-animation: 31s flakes linear infinite;
+  -moz-animation: 31s flakes linear infinite;
+  -o-animation: 31s flakes linear infinite;
+  animation: 31s flakes linear infinite;
+}
+
+.flake:nth-child(9) {
+  width: 14px;
+  height: 14px;
+  top: -568px;
+  left: 95%;
+  opacity: 0.86;
+  filter: blur(4px);
+  -webkit-animation: 60s flakes linear infinite;
+  -moz-animation: 60s flakes linear infinite;
+  -o-animation: 60s flakes linear infinite;
+  animation: 60s flakes linear infinite;
+}
+
+.flake:nth-child(10) {
+  width: 20px;
+  height: 20px;
+  top: -366px;
+  left: 85%;
+  opacity: 0.67;
+  filter: blur(3px);
+  -webkit-animation: 20s flakes linear infinite;
+  -moz-animation: 20s flakes linear infinite;
+  -o-animation: 20s flakes linear infinite;
+  animation: 20s flakes linear infinite;
+}
+
+.flake:nth-child(11) {
+  width: 14px;
+  height: 14px;
+  top: -71px;
+  left: 18%;
+  opacity: 0.55;
+  filter: blur(3px);
+  -webkit-animation: 38s flakes linear infinite;
+  -moz-animation: 38s flakes linear infinite;
+  -o-animation: 38s flakes linear infinite;
+  animation: 38s flakes linear infinite;
+}
+
+.flake:nth-child(12) {
+  width: 9px;
+  height: 9px;
+  top: -58px;
+  left: 89%;
+  opacity: 0.57;
+  filter: blur(4px);
+  -webkit-animation: 54s flakes linear infinite;
+  -moz-animation: 54s flakes linear infinite;
+  -o-animation: 54s flakes linear infinite;
+  animation: 54s flakes linear infinite;
+}
+
+.flake:nth-child(13) {
+  width: 18px;
+  height: 18px;
+  top: -503px;
+  left: 84%;
+  opacity: 0.92;
+  filter: blur(3px);
+  -webkit-animation: 65s flakes linear infinite;
+  -moz-animation: 65s flakes linear infinite;
+  -o-animation: 65s flakes linear infinite;
+  animation: 65s flakes linear infinite;
+}
+
+.flake:nth-child(14) {
+  width: 6px;
+  height: 6px;
+  top: -573px;
+  left: 72%;
+  opacity: 0.66;
+  filter: blur(3px);
+  -webkit-animation: 32s flakes linear infinite;
+  -moz-animation: 32s flakes linear infinite;
+  -o-animation: 32s flakes linear infinite;
+  animation: 32s flakes linear infinite;
+}
+
+.flake:nth-child(15) {
+  width: 11px;
+  height: 11px;
+  top: -5px;
+  left: 54%;
+  opacity: 0.77;
+  filter: blur(3px);
+  -webkit-animation: 26s flakes linear infinite;
+  -moz-animation: 26s flakes linear infinite;
+  -o-animation: 26s flakes linear infinite;
+  animation: 26s flakes linear infinite;
+}
+
+.flake:nth-child(16) {
+  width: 15px;
+  height: 15px;
+  top: -383px;
+  left: 62%;
+  opacity: 0.62;
+  filter: blur(4px);
+  -webkit-animation: 34s flakes linear infinite;
+  -moz-animation: 34s flakes linear infinite;
+  -o-animation: 34s flakes linear infinite;
+  animation: 34s flakes linear infinite;
+}
+
+.flake:nth-child(17) {
+  width: 13px;
+  height: 13px;
+  top: -19px;
+  left: 45%;
+  opacity: 0.87;
+  filter: blur(4px);
+  -webkit-animation: 24s flakes linear infinite;
+  -moz-animation: 24s flakes linear infinite;
+  -o-animation: 24s flakes linear infinite;
+  animation: 24s flakes linear infinite;
+}
+
+.flake:nth-child(18) {
+  width: 13px;
+  height: 13px;
+  top: -192px;
+  left: 4%;
+  opacity: 0.86;
+  filter: blur(3px);
+  -webkit-animation: 66s flakes linear infinite;
+  -moz-animation: 66s flakes linear infinite;
+  -o-animation: 66s flakes linear infinite;
+  animation: 66s flakes linear infinite;
+}
+
+.flake:nth-child(19) {
+  width: 14px;
+  height: 14px;
+  top: -444px;
+  left: 71%;
+  opacity: 0.68;
+  filter: blur(3px);
+  -webkit-animation: 44s flakes linear infinite;
+  -moz-animation: 44s flakes linear infinite;
+  -o-animation: 44s flakes linear infinite;
+  animation: 44s flakes linear infinite;
+}
+
+.flake:nth-child(20) {
+  width: 12px;
+  height: 12px;
+  top: -659px;
+  left: 88%;
+  opacity: 0.7;
+  filter: blur(4px);
+  -webkit-animation: 35s flakes linear infinite;
+  -moz-animation: 35s flakes linear infinite;
+  -o-animation: 35s flakes linear infinite;
+  animation: 35s flakes linear infinite;
+}
+
+.flake:nth-child(21) {
+  width: 17px;
+  height: 17px;
+  top: -527px;
+  left: 97%;
+  opacity: 0.52;
+  filter: blur(4px);
+  -webkit-animation: 62s flakes linear infinite;
+  -moz-animation: 62s flakes linear infinite;
+  -o-animation: 62s flakes linear infinite;
+  animation: 62s flakes linear infinite;
+}
+
+.flake:nth-child(22) {
+  width: 6px;
+  height: 6px;
+  top: -487px;
+  left: 76%;
+  opacity: 0.63;
+  filter: blur(3px);
+  -webkit-animation: 67s flakes linear infinite;
+  -moz-animation: 67s flakes linear infinite;
+  -o-animation: 67s flakes linear infinite;
+  animation: 67s flakes linear infinite;
+}
+
+.flake:nth-child(23) {
+  width: 20px;
+  height: 20px;
+  top: -400px;
+  left: 31%;
+  opacity: 0.59;
+  filter: blur(4px);
+  -webkit-animation: 45s flakes linear infinite;
+  -moz-animation: 45s flakes linear infinite;
+  -o-animation: 45s flakes linear infinite;
+  animation: 45s flakes linear infinite;
+}
+
+.flake:nth-child(24) {
+  width: 20px;
+  height: 20px;
+  top: -159px;
+  left: 67%;
+  opacity: 0.7;
+  filter: blur(3px);
+  -webkit-animation: 32s flakes linear infinite;
+  -moz-animation: 32s flakes linear infinite;
+  -o-animation: 32s flakes linear infinite;
+  animation: 32s flakes linear infinite;
+}
+
+.flake:nth-child(25) {
+  width: 14px;
+  height: 14px;
+  top: -380px;
+  left: 69%;
+  opacity: 0.51;
+  filter: blur(4px);
+  -webkit-animation: 29s flakes linear infinite;
+  -moz-animation: 29s flakes linear infinite;
+  -o-animation: 29s flakes linear infinite;
+  animation: 29s flakes linear infinite;
+}
+
+.flake:nth-child(26) {
+  width: 6px;
+  height: 6px;
+  top: -680px;
+  left: 40%;
+  opacity: 0.85;
+  filter: blur(4px);
+  -webkit-animation: 17s flakes linear infinite;
+  -moz-animation: 17s flakes linear infinite;
+  -o-animation: 17s flakes linear infinite;
+  animation: 17s flakes linear infinite;
+}
+
+.flake:nth-child(27) {
+  width: 13px;
+  height: 13px;
+  top: -185px;
+  left: 6%;
+  opacity: 0.56;
+  filter: blur(4px);
+  -webkit-animation: 66s flakes linear infinite;
+  -moz-animation: 66s flakes linear infinite;
+  -o-animation: 66s flakes linear infinite;
+  animation: 66s flakes linear infinite;
+}
+
+.flake:nth-child(28) {
+  width: 18px;
+  height: 18px;
+  top: -412px;
+  left: 81%;
+  opacity: 0.73;
+  filter: blur(3px);
+  -webkit-animation: 63s flakes linear infinite;
+  -moz-animation: 63s flakes linear infinite;
+  -o-animation: 63s flakes linear infinite;
+  animation: 63s flakes linear infinite;
+}
+
+.flake:nth-child(29) {
+  width: 17px;
+  height: 17px;
+  top: -233px;
+  left: 56%;
+  opacity: 0.83;
+  filter: blur(4px);
+  -webkit-animation: 18s flakes linear infinite;
+  -moz-animation: 18s flakes linear infinite;
+  -o-animation: 18s flakes linear infinite;
+  animation: 18s flakes linear infinite;
+}
+
+.flake:nth-child(30) {
+  width: 10px;
+  height: 10px;
+  top: -540px;
+  left: 97%;
+  opacity: 0.69;
+  filter: blur(4px);
+  -webkit-animation: 19s flakes linear infinite;
+  -moz-animation: 19s flakes linear infinite;
+  -o-animation: 19s flakes linear infinite;
+  animation: 19s flakes linear infinite;
+}
+
+.flake:nth-child(31) {
+  width: 20px;
+  height: 20px;
+  top: -380px;
+  left: 50%;
+  opacity: 0.51;
+  filter: blur(4px);
+  -webkit-animation: 31s flakes linear infinite;
+  -moz-animation: 31s flakes linear infinite;
+  -o-animation: 31s flakes linear infinite;
+  animation: 31s flakes linear infinite;
+}
+
+.flake:nth-child(32) {
+  width: 6px;
+  height: 6px;
+  top: -672px;
+  left: 28%;
+  opacity: 0.8;
+  filter: blur(4px);
+  -webkit-animation: 51s flakes linear infinite;
+  -moz-animation: 51s flakes linear infinite;
+  -o-animation: 51s flakes linear infinite;
+  animation: 51s flakes linear infinite;
+}
+
+.flake:nth-child(33) {
+  width: 17px;
+  height: 17px;
+  top: -451px;
+  left: 38%;
+  opacity: 0.98;
+  filter: blur(4px);
+  -webkit-animation: 49s flakes linear infinite;
+  -moz-animation: 49s flakes linear infinite;
+  -o-animation: 49s flakes linear infinite;
+  animation: 49s flakes linear infinite;
+}
+
+.flake:nth-child(34) {
+  width: 7px;
+  height: 7px;
+  top: -617px;
+  left: 96%;
+  opacity: 0.64;
+  filter: blur(4px);
+  -webkit-animation: 49s flakes linear infinite;
+  -moz-animation: 49s flakes linear infinite;
+  -o-animation: 49s flakes linear infinite;
+  animation: 49s flakes linear infinite;
+}
+
+.flake:nth-child(35) {
+  width: 18px;
+  height: 18px;
+  top: -62px;
+  left: 69%;
+  opacity: 0.51;
+  filter: blur(4px);
+  -webkit-animation: 45s flakes linear infinite;
+  -moz-animation: 45s flakes linear infinite;
+  -o-animation: 45s flakes linear infinite;
+  animation: 45s flakes linear infinite;
+}
+
+.flake:nth-child(36) {
+  width: 15px;
+  height: 15px;
+  top: -182px;
+  left: 64%;
+  opacity: 0.71;
+  filter: blur(3px);
+  -webkit-animation: 53s flakes linear infinite;
+  -moz-animation: 53s flakes linear infinite;
+  -o-animation: 53s flakes linear infinite;
+  animation: 53s flakes linear infinite;
+}
+
+.flake:nth-child(37) {
+  width: 17px;
+  height: 17px;
+  top: -78px;
+  left: 97%;
+  opacity: 0.63;
+  filter: blur(3px);
+  -webkit-animation: 70s flakes linear infinite;
+  -moz-animation: 70s flakes linear infinite;
+  -o-animation: 70s flakes linear infinite;
+  animation: 70s flakes linear infinite;
+}
+
+.flake:nth-child(38) {
+  width: 9px;
+  height: 9px;
+  top: -32px;
+  left: 79%;
+  opacity: 0.86;
+  filter: blur(4px);
+  -webkit-animation: 22s flakes linear infinite;
+  -moz-animation: 22s flakes linear infinite;
+  -o-animation: 22s flakes linear infinite;
+  animation: 22s flakes linear infinite;
+}
+
+.flake:nth-child(39) {
+  width: 14px;
+  height: 14px;
+  top: -133px;
+  left: 26%;
+  opacity: 0.68;
+  filter: blur(3px);
+  -webkit-animation: 29s flakes linear infinite;
+  -moz-animation: 29s flakes linear infinite;
+  -o-animation: 29s flakes linear infinite;
+  animation: 29s flakes linear infinite;
+}
+
+.flake:nth-child(40) {
+  width: 7px;
+  height: 7px;
+  top: -128px;
+  left: 85%;
+  opacity: 0.72;
+  filter: blur(3px);
+  -webkit-animation: 69s flakes linear infinite;
+  -moz-animation: 69s flakes linear infinite;
+  -o-animation: 69s flakes linear infinite;
+  animation: 69s flakes linear infinite;
+}
+
+.flake:nth-child(41) {
+  width: 17px;
+  height: 17px;
+  top: -574px;
+  left: 71%;
+  opacity: 0.84;
+  filter: blur(3px);
+  -webkit-animation: 37s flakes linear infinite;
+  -moz-animation: 37s flakes linear infinite;
+  -o-animation: 37s flakes linear infinite;
+  animation: 37s flakes linear infinite;
+}
+
+.flake:nth-child(42) {
+  width: 6px;
+  height: 6px;
+  top: -108px;
+  left: 92%;
+  opacity: 0.66;
+  filter: blur(4px);
+  -webkit-animation: 28s flakes linear infinite;
+  -moz-animation: 28s flakes linear infinite;
+  -o-animation: 28s flakes linear infinite;
+  animation: 28s flakes linear infinite;
+}
+
+.flake:nth-child(43) {
+  width: 10px;
+  height: 10px;
+  top: -483px;
+  left: 95%;
+  opacity: 0.91;
+  filter: blur(4px);
+  -webkit-animation: 35s flakes linear infinite;
+  -moz-animation: 35s flakes linear infinite;
+  -o-animation: 35s flakes linear infinite;
+  animation: 35s flakes linear infinite;
+}
+
+.flake:nth-child(44) {
+  width: 20px;
+  height: 20px;
+  top: -134px;
+  left: 66%;
+  opacity: 0.65;
+  filter: blur(3px);
+  -webkit-animation: 40s flakes linear infinite;
+  -moz-animation: 40s flakes linear infinite;
+  -o-animation: 40s flakes linear infinite;
+  animation: 40s flakes linear infinite;
+}
+
+.flake:nth-child(45) {
+  width: 12px;
+  height: 12px;
+  top: -61px;
+  left: 36%;
+  opacity: 0.54;
+  filter: blur(4px);
+  -webkit-animation: 44s flakes linear infinite;
+  -moz-animation: 44s flakes linear infinite;
+  -o-animation: 44s flakes linear infinite;
+  animation: 44s flakes linear infinite;
+}
+
+.flake:nth-child(46) {
+  width: 19px;
+  height: 19px;
+  top: -424px;
+  left: 18%;
+  opacity: 0.95;
+  filter: blur(3px);
+  -webkit-animation: 54s flakes linear infinite;
+  -moz-animation: 54s flakes linear infinite;
+  -o-animation: 54s flakes linear infinite;
+  animation: 54s flakes linear infinite;
+}
+
+.flake:nth-child(47) {
+  width: 10px;
+  height: 10px;
+  top: -256px;
+  left: 44%;
+  opacity: 0.51;
+  filter: blur(4px);
+  -webkit-animation: 26s flakes linear infinite;
+  -moz-animation: 26s flakes linear infinite;
+  -o-animation: 26s flakes linear infinite;
+  animation: 26s flakes linear infinite;
+}
+
+.flake:nth-child(48) {
+  width: 16px;
+  height: 16px;
+  top: -359px;
+  left: 47%;
+  opacity: 0.62;
+  filter: blur(4px);
+  -webkit-animation: 38s flakes linear infinite;
+  -moz-animation: 38s flakes linear infinite;
+  -o-animation: 38s flakes linear infinite;
+  animation: 38s flakes linear infinite;
+}
+
+.flake:nth-child(49) {
+  width: 13px;
+  height: 13px;
+  top: -404px;
+  left: 15%;
+  opacity: 0.59;
+  filter: blur(3px);
+  -webkit-animation: 52s flakes linear infinite;
+  -moz-animation: 52s flakes linear infinite;
+  -o-animation: 52s flakes linear infinite;
+  animation: 52s flakes linear infinite;
+}
+
+.flake:nth-child(50) {
+  width: 6px;
+  height: 6px;
+  top: -319px;
+  left: 46%;
+  opacity: 0.77;
+  filter: blur(4px);
+  -webkit-animation: 22s flakes linear infinite;
+  -moz-animation: 22s flakes linear infinite;
+  -o-animation: 22s flakes linear infinite;
+  animation: 22s flakes linear infinite;
+}
+
+.flake:nth-child(51) {
+  width: 7px;
+  height: 7px;
+  top: -472px;
+  left: 79%;
+  opacity: 0.78;
+  filter: blur(3px);
+  -webkit-animation: 41s flakes linear infinite;
+  -moz-animation: 41s flakes linear infinite;
+  -o-animation: 41s flakes linear infinite;
+  animation: 41s flakes linear infinite;
+}
+
+.flake:nth-child(52) {
+  width: 8px;
+  height: 8px;
+  top: -196px;
+  left: 35%;
+  opacity: 0.6;
+  filter: blur(4px);
+  -webkit-animation: 52s flakes linear infinite;
+  -moz-animation: 52s flakes linear infinite;
+  -o-animation: 52s flakes linear infinite;
+  animation: 52s flakes linear infinite;
+}
+
+.flake:nth-child(53) {
+  width: 15px;
+  height: 15px;
+  top: -72px;
+  left: 96%;
+  opacity: 0.54;
+  filter: blur(4px);
+  -webkit-animation: 52s flakes linear infinite;
+  -moz-animation: 52s flakes linear infinite;
+  -o-animation: 52s flakes linear infinite;
+  animation: 52s flakes linear infinite;
+}
+
+.flake:nth-child(54) {
+  width: 6px;
+  height: 6px;
+  top: -257px;
+  left: 63%;
+  opacity: 0.89;
+  filter: blur(4px);
+  -webkit-animation: 21s flakes linear infinite;
+  -moz-animation: 21s flakes linear infinite;
+  -o-animation: 21s flakes linear infinite;
+  animation: 21s flakes linear infinite;
+}
+
+.flake:nth-child(55) {
+  width: 11px;
+  height: 11px;
+  top: -644px;
+  left: 100%;
+  opacity: 0.75;
+  filter: blur(3px);
+  -webkit-animation: 19s flakes linear infinite;
+  -moz-animation: 19s flakes linear infinite;
+  -o-animation: 19s flakes linear infinite;
+  animation: 19s flakes linear infinite;
+}
+
+.flake:nth-child(56) {
+  width: 14px;
+  height: 14px;
+  top: -627px;
+  left: 58%;
+  opacity: 0.76;
+  filter: blur(3px);
+  -webkit-animation: 56s flakes linear infinite;
+  -moz-animation: 56s flakes linear infinite;
+  -o-animation: 56s flakes linear infinite;
+  animation: 56s flakes linear infinite;
+}
+
+.flake:nth-child(57) {
+  width: 9px;
+  height: 9px;
+  top: -289px;
+  left: 2%;
+  opacity: 0.84;
+  filter: blur(3px);
+  -webkit-animation: 57s flakes linear infinite;
+  -moz-animation: 57s flakes linear infinite;
+  -o-animation: 57s flakes linear infinite;
+  animation: 57s flakes linear infinite;
+}
+
+.flake:nth-child(58) {
+  width: 14px;
+  height: 14px;
+  top: -445px;
+  left: 31%;
+  opacity: 0.83;
+  filter: blur(3px);
+  -webkit-animation: 17s flakes linear infinite;
+  -moz-animation: 17s flakes linear infinite;
+  -o-animation: 17s flakes linear infinite;
+  animation: 17s flakes linear infinite;
+}
+
+.flake:nth-child(59) {
+  width: 6px;
+  height: 6px;
+  top: -52px;
+  left: 55%;
+  opacity: 0.9;
+  filter: blur(3px);
+  -webkit-animation: 59s flakes linear infinite;
+  -moz-animation: 59s flakes linear infinite;
+  -o-animation: 59s flakes linear infinite;
+  animation: 59s flakes linear infinite;
+}
+
+.flake:nth-child(60) {
+  width: 20px;
+  height: 20px;
+  top: -469px;
+  left: 93%;
+  opacity: 0.81;
+  filter: blur(3px);
+  -webkit-animation: 16s flakes linear infinite;
+  -moz-animation: 16s flakes linear infinite;
+  -o-animation: 16s flakes linear infinite;
+  animation: 16s flakes linear infinite;
+}
+
+.flake:nth-child(61) {
+  width: 10px;
+  height: 10px;
+  top: -134px;
+  left: 29%;
+  opacity: 0.97;
+  filter: blur(3px);
+  -webkit-animation: 47s flakes linear infinite;
+  -moz-animation: 47s flakes linear infinite;
+  -o-animation: 47s flakes linear infinite;
+  animation: 47s flakes linear infinite;
+}
+
+.flake:nth-child(62) {
+  width: 12px;
+  height: 12px;
+  top: -284px;
+  left: 49%;
+  opacity: 0.82;
+  filter: blur(3px);
+  -webkit-animation: 17s flakes linear infinite;
+  -moz-animation: 17s flakes linear infinite;
+  -o-animation: 17s flakes linear infinite;
+  animation: 17s flakes linear infinite;
+}
+
+.flake:nth-child(63) {
+  width: 15px;
+  height: 15px;
+  top: -326px;
+  left: 26%;
+  opacity: 0.63;
+  filter: blur(3px);
+  -webkit-animation: 29s flakes linear infinite;
+  -moz-animation: 29s flakes linear infinite;
+  -o-animation: 29s flakes linear infinite;
+  animation: 29s flakes linear infinite;
+}
+
+.flake:nth-child(64) {
+  width: 18px;
+  height: 18px;
+  top: -296px;
+  left: 3%;
+  opacity: 0.78;
+  filter: blur(4px);
+  -webkit-animation: 48s flakes linear infinite;
+  -moz-animation: 48s flakes linear infinite;
+  -o-animation: 48s flakes linear infinite;
+  animation: 48s flakes linear infinite;
+}
+
+.flake:nth-child(65) {
+  width: 14px;
+  height: 14px;
+  top: -607px;
+  left: 26%;
+  opacity: 0.69;
+  filter: blur(3px);
+  -webkit-animation: 17s flakes linear infinite;
+  -moz-animation: 17s flakes linear infinite;
+  -o-animation: 17s flakes linear infinite;
+  animation: 17s flakes linear infinite;
+}
+
+.flake:nth-child(66) {
+  width: 20px;
+  height: 20px;
+  top: -253px;
+  left: 10%;
+  opacity: 0.52;
+  filter: blur(4px);
+  -webkit-animation: 25s flakes linear infinite;
+  -moz-animation: 25s flakes linear infinite;
+  -o-animation: 25s flakes linear infinite;
+  animation: 25s flakes linear infinite;
+}
+
+.flake:nth-child(67) {
+  width: 11px;
+  height: 11px;
+  top: -500px;
+  left: 14%;
+  opacity: 0.75;
+  filter: blur(4px);
+  -webkit-animation: 40s flakes linear infinite;
+  -moz-animation: 40s flakes linear infinite;
+  -o-animation: 40s flakes linear infinite;
+  animation: 40s flakes linear infinite;
+}
+
+.flake:nth-child(68) {
+  width: 7px;
+  height: 7px;
+  top: -15px;
+  left: 20%;
+  opacity: 0.94;
+  filter: blur(4px);
+  -webkit-animation: 56s flakes linear infinite;
+  -moz-animation: 56s flakes linear infinite;
+  -o-animation: 56s flakes linear infinite;
+  animation: 56s flakes linear infinite;
+}
+
+.flake:nth-child(69) {
+  width: 10px;
+  height: 10px;
+  top: -688px;
+  left: 74%;
+  opacity: 0.85;
+  filter: blur(3px);
+  -webkit-animation: 45s flakes linear infinite;
+  -moz-animation: 45s flakes linear infinite;
+  -o-animation: 45s flakes linear infinite;
+  animation: 45s flakes linear infinite;
+}
+
+.flake:nth-child(70) {
+  width: 19px;
+  height: 19px;
+  top: -334px;
+  left: 1%;
+  opacity: 0.98;
+  filter: blur(4px);
+  -webkit-animation: 18s flakes linear infinite;
+  -moz-animation: 18s flakes linear infinite;
+  -o-animation: 18s flakes linear infinite;
+  animation: 18s flakes linear infinite;
+}
+
+.flake:nth-child(71) {
+  width: 17px;
+  height: 17px;
+  top: -371px;
+  left: 77%;
+  opacity: 0.93;
+  filter: blur(4px);
+  -webkit-animation: 57s flakes linear infinite;
+  -moz-animation: 57s flakes linear infinite;
+  -o-animation: 57s flakes linear infinite;
+  animation: 57s flakes linear infinite;
+}
+
+.flake:nth-child(72) {
+  width: 20px;
+  height: 20px;
+  top: -266px;
+  left: 60%;
+  opacity: 0.55;
+  filter: blur(4px);
+  -webkit-animation: 44s flakes linear infinite;
+  -moz-animation: 44s flakes linear infinite;
+  -o-animation: 44s flakes linear infinite;
+  animation: 44s flakes linear infinite;
+}
+
+.flake:nth-child(73) {
+  width: 16px;
+  height: 16px;
+  top: -598px;
+  left: 22%;
+  opacity: 0.82;
+  filter: blur(4px);
+  -webkit-animation: 18s flakes linear infinite;
+  -moz-animation: 18s flakes linear infinite;
+  -o-animation: 18s flakes linear infinite;
+  animation: 18s flakes linear infinite;
+}
+
+.flake:nth-child(74) {
+  width: 20px;
+  height: 20px;
+  top: -1px;
+  left: 97%;
+  opacity: 0.59;
+  filter: blur(3px);
+  -webkit-animation: 46s flakes linear infinite;
+  -moz-animation: 46s flakes linear infinite;
+  -o-animation: 46s flakes linear infinite;
+  animation: 46s flakes linear infinite;
+}
+
+.flake:nth-child(75) {
+  width: 15px;
+  height: 15px;
+  top: -526px;
+  left: 87%;
+  opacity: 0.71;
+  filter: blur(3px);
+  -webkit-animation: 37s flakes linear infinite;
+  -moz-animation: 37s flakes linear infinite;
+  -o-animation: 37s flakes linear infinite;
+  animation: 37s flakes linear infinite;
+}
+
+.flake:nth-child(76) {
+  width: 6px;
+  height: 6px;
+  top: -271px;
+  left: 46%;
+  opacity: 0.93;
+  filter: blur(3px);
+  -webkit-animation: 62s flakes linear infinite;
+  -moz-animation: 62s flakes linear infinite;
+  -o-animation: 62s flakes linear infinite;
+  animation: 62s flakes linear infinite;
+}
+
+.flake:nth-child(77) {
+  width: 6px;
+  height: 6px;
+  top: -611px;
+  left: 2%;
+  opacity: 1;
+  filter: blur(4px);
+  -webkit-animation: 42s flakes linear infinite;
+  -moz-animation: 42s flakes linear infinite;
+  -o-animation: 42s flakes linear infinite;
+  animation: 42s flakes linear infinite;
+}
+
+.flake:nth-child(78) {
+  width: 20px;
+  height: 20px;
+  top: -28px;
+  left: 5%;
+  opacity: 0.87;
+  filter: blur(3px);
+  -webkit-animation: 67s flakes linear infinite;
+  -moz-animation: 67s flakes linear infinite;
+  -o-animation: 67s flakes linear infinite;
+  animation: 67s flakes linear infinite;
+}
+
+.flake:nth-child(79) {
+  width: 16px;
+  height: 16px;
+  top: -488px;
+  left: 70%;
+  opacity: 0.82;
+  filter: blur(3px);
+  -webkit-animation: 51s flakes linear infinite;
+  -moz-animation: 51s flakes linear infinite;
+  -o-animation: 51s flakes linear infinite;
+  animation: 51s flakes linear infinite;
+}
+
+.flake:nth-child(80) {
+  width: 11px;
+  height: 11px;
+  top: -163px;
+  left: 40%;
+  opacity: 0.92;
+  filter: blur(4px);
+  -webkit-animation: 53s flakes linear infinite;
+  -moz-animation: 53s flakes linear infinite;
+  -o-animation: 53s flakes linear infinite;
+  animation: 53s flakes linear infinite;
+}
+
+.flake:nth-child(81) {
+  width: 9px;
+  height: 9px;
+  top: -222px;
+  left: 98%;
+  opacity: 0.87;
+  filter: blur(4px);
+  -webkit-animation: 30s flakes linear infinite;
+  -moz-animation: 30s flakes linear infinite;
+  -o-animation: 30s flakes linear infinite;
+  animation: 30s flakes linear infinite;
+}
+
+.flake:nth-child(82) {
+  width: 12px;
+  height: 12px;
+  top: -564px;
+  left: 59%;
+  opacity: 0.9;
+  filter: blur(4px);
+  -webkit-animation: 30s flakes linear infinite;
+  -moz-animation: 30s flakes linear infinite;
+  -o-animation: 30s flakes linear infinite;
+  animation: 30s flakes linear infinite;
+}
+
+.flake:nth-child(83) {
+  width: 9px;
+  height: 9px;
+  top: -641px;
+  left: 11%;
+  opacity: 0.64;
+  filter: blur(3px);
+  -webkit-animation: 27s flakes linear infinite;
+  -moz-animation: 27s flakes linear infinite;
+  -o-animation: 27s flakes linear infinite;
+  animation: 27s flakes linear infinite;
+}
+
+.flake:nth-child(84) {
+  width: 6px;
+  height: 6px;
+  top: -157px;
+  left: 82%;
+  opacity: 0.77;
+  filter: blur(3px);
+  -webkit-animation: 34s flakes linear infinite;
+  -moz-animation: 34s flakes linear infinite;
+  -o-animation: 34s flakes linear infinite;
+  animation: 34s flakes linear infinite;
+}
+
+.flake:nth-child(85) {
+  width: 14px;
+  height: 14px;
+  top: -263px;
+  left: 7%;
+  opacity: 0.74;
+  filter: blur(4px);
+  -webkit-animation: 59s flakes linear infinite;
+  -moz-animation: 59s flakes linear infinite;
+  -o-animation: 59s flakes linear infinite;
+  animation: 59s flakes linear infinite;
+}
+
+.flake:nth-child(86) {
+  width: 20px;
+  height: 20px;
+  top: -416px;
+  left: 33%;
+  opacity: 0.83;
+  filter: blur(3px);
+  -webkit-animation: 35s flakes linear infinite;
+  -moz-animation: 35s flakes linear infinite;
+  -o-animation: 35s flakes linear infinite;
+  animation: 35s flakes linear infinite;
+}
+
+.flake:nth-child(87) {
+  width: 18px;
+  height: 18px;
+  top: -74px;
+  left: 52%;
+  opacity: 0.87;
+  filter: blur(4px);
+  -webkit-animation: 35s flakes linear infinite;
+  -moz-animation: 35s flakes linear infinite;
+  -o-animation: 35s flakes linear infinite;
+  animation: 35s flakes linear infinite;
+}
+
+.flake:nth-child(88) {
+  width: 7px;
+  height: 7px;
+  top: -355px;
+  left: 51%;
+  opacity: 0.93;
+  filter: blur(3px);
+  -webkit-animation: 59s flakes linear infinite;
+  -moz-animation: 59s flakes linear infinite;
+  -o-animation: 59s flakes linear infinite;
+  animation: 59s flakes linear infinite;
+}
+
+.flake:nth-child(89) {
+  width: 6px;
+  height: 6px;
+  top: -198px;
+  left: 100%;
+  opacity: 0.53;
+  filter: blur(4px);
+  -webkit-animation: 47s flakes linear infinite;
+  -moz-animation: 47s flakes linear infinite;
+  -o-animation: 47s flakes linear infinite;
+  animation: 47s flakes linear infinite;
+}
+
+.flake:nth-child(90) {
+  width: 10px;
+  height: 10px;
+  top: -267px;
+  left: 12%;
+  opacity: 0.69;
+  filter: blur(3px);
+  -webkit-animation: 69s flakes linear infinite;
+  -moz-animation: 69s flakes linear infinite;
+  -o-animation: 69s flakes linear infinite;
+  animation: 69s flakes linear infinite;
+}
+
+.flake:nth-child(91) {
+  width: 18px;
+  height: 18px;
+  top: -676px;
+  left: 29%;
+  opacity: 0.86;
+  filter: blur(4px);
+  -webkit-animation: 23s flakes linear infinite;
+  -moz-animation: 23s flakes linear infinite;
+  -o-animation: 23s flakes linear infinite;
+  animation: 23s flakes linear infinite;
+}
+
+.flake:nth-child(92) {
+  width: 11px;
+  height: 11px;
+  top: -459px;
+  left: 37%;
+  opacity: 0.84;
+  filter: blur(3px);
+  -webkit-animation: 35s flakes linear infinite;
+  -moz-animation: 35s flakes linear infinite;
+  -o-animation: 35s flakes linear infinite;
+  animation: 35s flakes linear infinite;
+}
+
+.flake:nth-child(93) {
+  width: 16px;
+  height: 16px;
+  top: -656px;
+  left: 3%;
+  opacity: 0.77;
+  filter: blur(4px);
+  -webkit-animation: 48s flakes linear infinite;
+  -moz-animation: 48s flakes linear infinite;
+  -o-animation: 48s flakes linear infinite;
+  animation: 48s flakes linear infinite;
+}
+
+.flake:nth-child(94) {
+  width: 14px;
+  height: 14px;
+  top: -158px;
+  left: 51%;
+  opacity: 0.58;
+  filter: blur(3px);
+  -webkit-animation: 56s flakes linear infinite;
+  -moz-animation: 56s flakes linear infinite;
+  -o-animation: 56s flakes linear infinite;
+  animation: 56s flakes linear infinite;
+}
+
+.flake:nth-child(95) {
+  width: 16px;
+  height: 16px;
+  top: -359px;
+  left: 11%;
+  opacity: 0.71;
+  filter: blur(4px);
+  -webkit-animation: 28s flakes linear infinite;
+  -moz-animation: 28s flakes linear infinite;
+  -o-animation: 28s flakes linear infinite;
+  animation: 28s flakes linear infinite;
+}
+
+.flake:nth-child(96) {
+  width: 15px;
+  height: 15px;
+  top: -230px;
+  left: 68%;
+  opacity: 0.96;
+  filter: blur(4px);
+  -webkit-animation: 29s flakes linear infinite;
+  -moz-animation: 29s flakes linear infinite;
+  -o-animation: 29s flakes linear infinite;
+  animation: 29s flakes linear infinite;
+}
+
+.flake:nth-child(97) {
+  width: 14px;
+  height: 14px;
+  top: -644px;
+  left: 62%;
+  opacity: 0.95;
+  filter: blur(4px);
+  -webkit-animation: 53s flakes linear infinite;
+  -moz-animation: 53s flakes linear infinite;
+  -o-animation: 53s flakes linear infinite;
+  animation: 53s flakes linear infinite;
+}
+
+.flake:nth-child(98) {
+  width: 13px;
+  height: 13px;
+  top: -121px;
+  left: 98%;
+  opacity: 0.97;
+  filter: blur(3px);
+  -webkit-animation: 31s flakes linear infinite;
+  -moz-animation: 31s flakes linear infinite;
+  -o-animation: 31s flakes linear infinite;
+  animation: 31s flakes linear infinite;
+}
+
+.flake:nth-child(99) {
+  width: 7px;
+  height: 7px;
+  top: -538px;
+  left: 67%;
+  opacity: 0.54;
+  filter: blur(4px);
+  -webkit-animation: 29s flakes linear infinite;
+  -moz-animation: 29s flakes linear infinite;
+  -o-animation: 29s flakes linear infinite;
+  animation: 29s flakes linear infinite;
+}
+
+.flake:nth-child(100) {
+  width: 8px;
+  height: 8px;
+  top: -331px;
+  left: 20%;
+  opacity: 0.9;
+  filter: blur(4px);
+  -webkit-animation: 30s flakes linear infinite;
+  -moz-animation: 30s flakes linear infinite;
+  -o-animation: 30s flakes linear infinite;
+  animation: 30s flakes linear infinite;
+}
+
+.flake:nth-child(101) {
+  width: 13px;
+  height: 13px;
+  top: -257px;
+  left: 46%;
+  opacity: 0.55;
+  filter: blur(4px);
+  -webkit-animation: 59s flakes linear infinite;
+  -moz-animation: 59s flakes linear infinite;
+  -o-animation: 59s flakes linear infinite;
+  animation: 59s flakes linear infinite;
+}
+
+.flake:nth-child(102) {
+  width: 19px;
+  height: 19px;
+  top: -172px;
+  left: 14%;
+  opacity: 0.67;
+  filter: blur(3px);
+  -webkit-animation: 63s flakes linear infinite;
+  -moz-animation: 63s flakes linear infinite;
+  -o-animation: 63s flakes linear infinite;
+  animation: 63s flakes linear infinite;
+}
+
+.flake:nth-child(103) {
+  width: 14px;
+  height: 14px;
+  top: -234px;
+  left: 62%;
+  opacity: 0.71;
+  filter: blur(4px);
+  -webkit-animation: 49s flakes linear infinite;
+  -moz-animation: 49s flakes linear infinite;
+  -o-animation: 49s flakes linear infinite;
+  animation: 49s flakes linear infinite;
+}
+
+.flake:nth-child(104) {
+  width: 16px;
+  height: 16px;
+  top: -110px;
+  left: 53%;
+  opacity: 0.65;
+  filter: blur(3px);
+  -webkit-animation: 30s flakes linear infinite;
+  -moz-animation: 30s flakes linear infinite;
+  -o-animation: 30s flakes linear infinite;
+  animation: 30s flakes linear infinite;
+}
+
+.flake:nth-child(105) {
+  width: 19px;
+  height: 19px;
+  top: -433px;
+  left: 51%;
+  opacity: 0.52;
+  filter: blur(3px);
+  -webkit-animation: 31s flakes linear infinite;
+  -moz-animation: 31s flakes linear infinite;
+  -o-animation: 31s flakes linear infinite;
+  animation: 31s flakes linear infinite;
+}
+
+.flake:nth-child(106) {
+  width: 13px;
+  height: 13px;
+  top: -246px;
+  left: 68%;
+  opacity: 0.63;
+  filter: blur(4px);
+  -webkit-animation: 33s flakes linear infinite;
+  -moz-animation: 33s flakes linear infinite;
+  -o-animation: 33s flakes linear infinite;
+  animation: 33s flakes linear infinite;
+}
+
+.flake:nth-child(107) {
+  width: 20px;
+  height: 20px;
+  top: -140px;
+  left: 67%;
+  opacity: 0.66;
+  filter: blur(3px);
+  -webkit-animation: 67s flakes linear infinite;
+  -moz-animation: 67s flakes linear infinite;
+  -o-animation: 67s flakes linear infinite;
+  animation: 67s flakes linear infinite;
+}
+
+.flake:nth-child(108) {
+  width: 16px;
+  height: 16px;
+  top: -13px;
+  left: 20%;
+  opacity: 0.74;
+  filter: blur(4px);
+  -webkit-animation: 44s flakes linear infinite;
+  -moz-animation: 44s flakes linear infinite;
+  -o-animation: 44s flakes linear infinite;
+  animation: 44s flakes linear infinite;
+}
+
+.flake:nth-child(109) {
+  width: 10px;
+  height: 10px;
+  top: -585px;
+  left: 33%;
+  opacity: 1;
+  filter: blur(4px);
+  -webkit-animation: 29s flakes linear infinite;
+  -moz-animation: 29s flakes linear infinite;
+  -o-animation: 29s flakes linear infinite;
+  animation: 29s flakes linear infinite;
+}
+
+.flake:nth-child(110) {
+  width: 7px;
+  height: 7px;
+  top: -202px;
+  left: 20%;
+  opacity: 0.53;
+  filter: blur(4px);
+  -webkit-animation: 38s flakes linear infinite;
+  -moz-animation: 38s flakes linear infinite;
+  -o-animation: 38s flakes linear infinite;
+  animation: 38s flakes linear infinite;
+}
+
+.flake:nth-child(111) {
+  width: 16px;
+  height: 16px;
+  top: -393px;
+  left: 78%;
+  opacity: 0.97;
+  filter: blur(4px);
+  -webkit-animation: 46s flakes linear infinite;
+  -moz-animation: 46s flakes linear infinite;
+  -o-animation: 46s flakes linear infinite;
+  animation: 46s flakes linear infinite;
+}
+
+.flake:nth-child(112) {
+  width: 12px;
+  height: 12px;
+  top: -290px;
+  left: 47%;
+  opacity: 0.57;
+  filter: blur(3px);
+  -webkit-animation: 68s flakes linear infinite;
+  -moz-animation: 68s flakes linear infinite;
+  -o-animation: 68s flakes linear infinite;
+  animation: 68s flakes linear infinite;
+}
+
+.flake:nth-child(113) {
+  width: 17px;
+  height: 17px;
+  top: -244px;
+  left: 82%;
+  opacity: 0.66;
+  filter: blur(4px);
+  -webkit-animation: 70s flakes linear infinite;
+  -moz-animation: 70s flakes linear infinite;
+  -o-animation: 70s flakes linear infinite;
+  animation: 70s flakes linear infinite;
+}
+
+.flake:nth-child(114) {
+  width: 7px;
+  height: 7px;
+  top: -278px;
+  left: 70%;
+  opacity: 0.54;
+  filter: blur(4px);
+  -webkit-animation: 36s flakes linear infinite;
+  -moz-animation: 36s flakes linear infinite;
+  -o-animation: 36s flakes linear infinite;
+  animation: 36s flakes linear infinite;
+}
+
+.flake:nth-child(115) {
+  width: 11px;
+  height: 11px;
+  top: -83px;
+  left: 47%;
+  opacity: 0.88;
+  filter: blur(4px);
+  -webkit-animation: 46s flakes linear infinite;
+  -moz-animation: 46s flakes linear infinite;
+  -o-animation: 46s flakes linear infinite;
+  animation: 46s flakes linear infinite;
+}
+
+.flake:nth-child(116) {
+  width: 10px;
+  height: 10px;
+  top: -679px;
+  left: 79%;
+  opacity: 0.8;
+  filter: blur(4px);
+  -webkit-animation: 37s flakes linear infinite;
+  -moz-animation: 37s flakes linear infinite;
+  -o-animation: 37s flakes linear infinite;
+  animation: 37s flakes linear infinite;
+}
+
+.flake:nth-child(117) {
+  width: 10px;
+  height: 10px;
+  top: -267px;
+  left: 74%;
+  opacity: 0.91;
+  filter: blur(4px);
+  -webkit-animation: 17s flakes linear infinite;
+  -moz-animation: 17s flakes linear infinite;
+  -o-animation: 17s flakes linear infinite;
+  animation: 17s flakes linear infinite;
+}
+
+.flake:nth-child(118) {
+  width: 18px;
+  height: 18px;
+  top: -414px;
+  left: 57%;
+  opacity: 0.88;
+  filter: blur(4px);
+  -webkit-animation: 25s flakes linear infinite;
+  -moz-animation: 25s flakes linear infinite;
+  -o-animation: 25s flakes linear infinite;
+  animation: 25s flakes linear infinite;
+}
+
+.flake:nth-child(119) {
+  width: 14px;
+  height: 14px;
+  top: -109px;
+  left: 37%;
+  opacity: 0.79;
+  filter: blur(4px);
+  -webkit-animation: 24s flakes linear infinite;
+  -moz-animation: 24s flakes linear infinite;
+  -o-animation: 24s flakes linear infinite;
+  animation: 24s flakes linear infinite;
+}
+
+.flake:nth-child(120) {
+  width: 12px;
+  height: 12px;
+  top: -157px;
+  left: 24%;
+  opacity: 0.6;
+  filter: blur(3px);
+  -webkit-animation: 30s flakes linear infinite;
+  -moz-animation: 30s flakes linear infinite;
+  -o-animation: 30s flakes linear infinite;
+  animation: 30s flakes linear infinite;
+}
+
+.flake:nth-child(121) {
+  width: 14px;
+  height: 14px;
+  top: -47px;
+  left: 56%;
+  opacity: 0.76;
+  filter: blur(3px);
+  -webkit-animation: 24s flakes linear infinite;
+  -moz-animation: 24s flakes linear infinite;
+  -o-animation: 24s flakes linear infinite;
+  animation: 24s flakes linear infinite;
+}
+
+.flake:nth-child(122) {
+  width: 7px;
+  height: 7px;
+  top: -439px;
+  left: 39%;
+  opacity: 0.81;
+  filter: blur(4px);
+  -webkit-animation: 57s flakes linear infinite;
+  -moz-animation: 57s flakes linear infinite;
+  -o-animation: 57s flakes linear infinite;
+  animation: 57s flakes linear infinite;
+}
+
+.flake:nth-child(123) {
+  width: 18px;
+  height: 18px;
+  top: -213px;
+  left: 51%;
+  opacity: 0.8;
+  filter: blur(3px);
+  -webkit-animation: 62s flakes linear infinite;
+  -moz-animation: 62s flakes linear infinite;
+  -o-animation: 62s flakes linear infinite;
+  animation: 62s flakes linear infinite;
+}
+
+.flake:nth-child(124) {
+  width: 7px;
+  height: 7px;
+  top: -694px;
+  left: 65%;
+  opacity: 0.7;
+  filter: blur(3px);
+  -webkit-animation: 65s flakes linear infinite;
+  -moz-animation: 65s flakes linear infinite;
+  -o-animation: 65s flakes linear infinite;
+  animation: 65s flakes linear infinite;
+}
+
+.flake:nth-child(125) {
+  width: 14px;
+  height: 14px;
+  top: -88px;
+  left: 20%;
+  opacity: 0.54;
+  filter: blur(4px);
+  -webkit-animation: 26s flakes linear infinite;
+  -moz-animation: 26s flakes linear infinite;
+  -o-animation: 26s flakes linear infinite;
+  animation: 26s flakes linear infinite;
+}
+
+.flake:nth-child(126) {
+  width: 8px;
+  height: 8px;
+  top: -97px;
+  left: 26%;
+  opacity: 0.94;
+  filter: blur(3px);
+  -webkit-animation: 44s flakes linear infinite;
+  -moz-animation: 44s flakes linear infinite;
+  -o-animation: 44s flakes linear infinite;
+  animation: 44s flakes linear infinite;
+}
+
+.flake:nth-child(127) {
+  width: 10px;
+  height: 10px;
+  top: -603px;
+  left: 27%;
+  opacity: 0.55;
+  filter: blur(3px);
+  -webkit-animation: 61s flakes linear infinite;
+  -moz-animation: 61s flakes linear infinite;
+  -o-animation: 61s flakes linear infinite;
+  animation: 61s flakes linear infinite;
+}
+
+.flake:nth-child(128) {
+  width: 12px;
+  height: 12px;
+  top: -458px;
+  left: 48%;
+  opacity: 0.95;
+  filter: blur(4px);
+  -webkit-animation: 31s flakes linear infinite;
+  -moz-animation: 31s flakes linear infinite;
+  -o-animation: 31s flakes linear infinite;
+  animation: 31s flakes linear infinite;
+}
+
+.flake:nth-child(129) {
+  width: 14px;
+  height: 14px;
+  top: -94px;
+  left: 55%;
+  opacity: 0.9;
+  filter: blur(4px);
+  -webkit-animation: 64s flakes linear infinite;
+  -moz-animation: 64s flakes linear infinite;
+  -o-animation: 64s flakes linear infinite;
+  animation: 64s flakes linear infinite;
+}
+
+.flake:nth-child(130) {
+  width: 11px;
+  height: 11px;
+  top: -417px;
+  left: 3%;
+  opacity: 0.84;
+  filter: blur(3px);
+  -webkit-animation: 18s flakes linear infinite;
+  -moz-animation: 18s flakes linear infinite;
+  -o-animation: 18s flakes linear infinite;
+  animation: 18s flakes linear infinite;
+}
+
+.flake:nth-child(131) {
+  width: 19px;
+  height: 19px;
+  top: -121px;
+  left: 76%;
+  opacity: 0.83;
+  filter: blur(3px);
+  -webkit-animation: 64s flakes linear infinite;
+  -moz-animation: 64s flakes linear infinite;
+  -o-animation: 64s flakes linear infinite;
+  animation: 64s flakes linear infinite;
+}
+
+.flake:nth-child(132) {
+  width: 9px;
+  height: 9px;
+  top: -478px;
+  left: 67%;
+  opacity: 0.9;
+  filter: blur(3px);
+  -webkit-animation: 43s flakes linear infinite;
+  -moz-animation: 43s flakes linear infinite;
+  -o-animation: 43s flakes linear infinite;
+  animation: 43s flakes linear infinite;
+}
+
+.flake:nth-child(133) {
+  width: 7px;
+  height: 7px;
+  top: -168px;
+  left: 2%;
+  opacity: 0.61;
+  filter: blur(4px);
+  -webkit-animation: 60s flakes linear infinite;
+  -moz-animation: 60s flakes linear infinite;
+  -o-animation: 60s flakes linear infinite;
+  animation: 60s flakes linear infinite;
+}
+
+.flake:nth-child(134) {
+  width: 9px;
+  height: 9px;
+  top: -192px;
+  left: 24%;
+  opacity: 0.6;
+  filter: blur(4px);
+  -webkit-animation: 46s flakes linear infinite;
+  -moz-animation: 46s flakes linear infinite;
+  -o-animation: 46s flakes linear infinite;
+  animation: 46s flakes linear infinite;
+}
+
+.flake:nth-child(135) {
+  width: 14px;
+  height: 14px;
+  top: -514px;
+  left: 32%;
+  opacity: 0.79;
+  filter: blur(4px);
+  -webkit-animation: 34s flakes linear infinite;
+  -moz-animation: 34s flakes linear infinite;
+  -o-animation: 34s flakes linear infinite;
+  animation: 34s flakes linear infinite;
+}
+
+.flake:nth-child(136) {
+  width: 17px;
+  height: 17px;
+  top: -498px;
+  left: 47%;
+  opacity: 0.66;
+  filter: blur(4px);
+  -webkit-animation: 52s flakes linear infinite;
+  -moz-animation: 52s flakes linear infinite;
+  -o-animation: 52s flakes linear infinite;
+  animation: 52s flakes linear infinite;
+}
+
+.flake:nth-child(137) {
+  width: 17px;
+  height: 17px;
+  top: -212px;
+  left: 13%;
+  opacity: 0.54;
+  filter: blur(3px);
+  -webkit-animation: 29s flakes linear infinite;
+  -moz-animation: 29s flakes linear infinite;
+  -o-animation: 29s flakes linear infinite;
+  animation: 29s flakes linear infinite;
+}
+
+.flake:nth-child(138) {
+  width: 17px;
+  height: 17px;
+  top: -590px;
+  left: 87%;
+  opacity: 0.84;
+  filter: blur(3px);
+  -webkit-animation: 24s flakes linear infinite;
+  -moz-animation: 24s flakes linear infinite;
+  -o-animation: 24s flakes linear infinite;
+  animation: 24s flakes linear infinite;
+}
+
+.flake:nth-child(139) {
+  width: 12px;
+  height: 12px;
+  top: -404px;
+  left: 47%;
+  opacity: 0.73;
+  filter: blur(3px);
+  -webkit-animation: 51s flakes linear infinite;
+  -moz-animation: 51s flakes linear infinite;
+  -o-animation: 51s flakes linear infinite;
+  animation: 51s flakes linear infinite;
+}
+
+.flake:nth-child(140) {
+  width: 8px;
+  height: 8px;
+  top: -4px;
+  left: 82%;
+  opacity: 0.59;
+  filter: blur(4px);
+  -webkit-animation: 37s flakes linear infinite;
+  -moz-animation: 37s flakes linear infinite;
+  -o-animation: 37s flakes linear infinite;
+  animation: 37s flakes linear infinite;
+}
+
+.flake:nth-child(141) {
+  width: 11px;
+  height: 11px;
+  top: -321px;
+  left: 33%;
+  opacity: 0.72;
+  filter: blur(4px);
+  -webkit-animation: 50s flakes linear infinite;
+  -moz-animation: 50s flakes linear infinite;
+  -o-animation: 50s flakes linear infinite;
+  animation: 50s flakes linear infinite;
+}
+
+.flake:nth-child(142) {
+  width: 12px;
+  height: 12px;
+  top: -573px;
+  left: 18%;
+  opacity: 0.52;
+  filter: blur(3px);
+  -webkit-animation: 25s flakes linear infinite;
+  -moz-animation: 25s flakes linear infinite;
+  -o-animation: 25s flakes linear infinite;
+  animation: 25s flakes linear infinite;
+}
+
+.flake:nth-child(143) {
+  width: 8px;
+  height: 8px;
+  top: -654px;
+  left: 32%;
+  opacity: 0.81;
+  filter: blur(4px);
+  -webkit-animation: 70s flakes linear infinite;
+  -moz-animation: 70s flakes linear infinite;
+  -o-animation: 70s flakes linear infinite;
+  animation: 70s flakes linear infinite;
+}
+
+.flake:nth-child(144) {
+  width: 19px;
+  height: 19px;
+  top: -62px;
+  left: 78%;
+  opacity: 0.89;
+  filter: blur(3px);
+  -webkit-animation: 70s flakes linear infinite;
+  -moz-animation: 70s flakes linear infinite;
+  -o-animation: 70s flakes linear infinite;
+  animation: 70s flakes linear infinite;
+}
+
+.flake:nth-child(145) {
+  width: 14px;
+  height: 14px;
+  top: -69px;
+  left: 10%;
+  opacity: 0.91;
+  filter: blur(4px);
+  -webkit-animation: 35s flakes linear infinite;
+  -moz-animation: 35s flakes linear infinite;
+  -o-animation: 35s flakes linear infinite;
+  animation: 35s flakes linear infinite;
+}
+
+.flake:nth-child(146) {
+  width: 12px;
+  height: 12px;
+  top: -369px;
+  left: 49%;
+  opacity: 0.8;
+  filter: blur(3px);
+  -webkit-animation: 46s flakes linear infinite;
+  -moz-animation: 46s flakes linear infinite;
+  -o-animation: 46s flakes linear infinite;
+  animation: 46s flakes linear infinite;
+}
+
+.flake:nth-child(147) {
+  width: 20px;
+  height: 20px;
+  top: -685px;
+  left: 93%;
+  opacity: 0.97;
+  filter: blur(3px);
+  -webkit-animation: 59s flakes linear infinite;
+  -moz-animation: 59s flakes linear infinite;
+  -o-animation: 59s flakes linear infinite;
+  animation: 59s flakes linear infinite;
+}
+
+.flake:nth-child(148) {
+  width: 8px;
+  height: 8px;
+  top: -120px;
+  left: 78%;
+  opacity: 0.71;
+  filter: blur(4px);
+  -webkit-animation: 18s flakes linear infinite;
+  -moz-animation: 18s flakes linear infinite;
+  -o-animation: 18s flakes linear infinite;
+  animation: 18s flakes linear infinite;
+}
+
+.flake:nth-child(149) {
+  width: 12px;
+  height: 12px;
+  top: -92px;
+  left: 67%;
+  opacity: 0.82;
+  filter: blur(4px);
+  -webkit-animation: 35s flakes linear infinite;
+  -moz-animation: 35s flakes linear infinite;
+  -o-animation: 35s flakes linear infinite;
+  animation: 35s flakes linear infinite;
+}
+
+.flake:nth-child(150) {
+  width: 17px;
+  height: 17px;
+  top: -565px;
+  left: 29%;
+  opacity: 0.85;
+  filter: blur(4px);
+  -webkit-animation: 16s flakes linear infinite;
+  -moz-animation: 16s flakes linear infinite;
+  -o-animation: 16s flakes linear infinite;
+  animation: 16s flakes linear infinite;
+}
+
+@keyframes flakes {
+  100% {
+    -webkit-transform: translateY(1000px) rotateX(25deg) rotateY(38deg);
+    -moz-transform: translateY(1000px) rotateX(25deg) rotateY(38deg);
+    -ms-transform: translateY(1000px) rotateX(25deg) rotateY(38deg);
+    -o-transform: translateY(1000px) rotateX(25deg) rotateY(38deg);
+    transform: translateY(1000px) rotateX(25deg) rotateY(38deg);
+    opacity: 0;
+  }
+}
+body, html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  font-family: "Varela Round", sans-serif;
+  background-image: -owg-linear-gradient(bottom, #B7E7FC 0%, #00A3EF 100%);
+  background-image: -webkit-linear-gradient(bottom, #B7E7FC 0%, #00A3EF 100%);
+  background-image: -moz-linear-gradient(bottom, #B7E7FC 0%, #00A3EF 100%);
+  background-image: -o-linear-gradient(bottom, #B7E7FC 0%, #00A3EF 100%);
+  background-image: linear-gradient(bottom, #B7E7FC 0%, #00A3EF 100%);
+}

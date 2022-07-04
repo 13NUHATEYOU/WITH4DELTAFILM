@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>찰칵.</title>
+    <meta charset="UTF-8" />
+    <link rel="shortcut icon" type="image/x-icon" href="https://13nuhateyou.github.io/WITH4DELTAFILM/favicon.ico">
+    <link rel="stylesheet" href="https://unpkg.com/98.css@0.1.4/build/98.css" />
+    <script src="/html2canvas.js"></script>
+  </head>
+  <style>
+    body { 
+      background-image: url('shot_background.png');
+      background-repeat : no-repeat;
+    }
+    </style>  
+<script>
+    function bodyShot() {
+        html2canvas(document.body).then(function (canvas) {
+            drawImg(canvas.toDataURL('image/png'));
+            saveAs(canvas.toDataURL(), 'file-name.png');
+        }).catch(function (err) {
+        });
+    }
+
+    function saveAs(uri, fileName) {
+        var link = document.createElement('a');
+        if (typeof link.download === 'string') {
+            link.href = uri;
+            link.download = fileName;
+            document.body.appendChild(link);
+            link.click();
+            document.body.removeChild(link);
+        } else {
+            window.open(uri);
+        }
+    }
+</script>
+  <body>
+    <div class="window" style="margin: 32px; width: 250px;">
+      <div class="title-bar">
+        <div class="title-bar-text">
+          소중한 너에게.
+        </div>
+
+        <div class="title-bar-controls">
+          <button aria-label="Minimize"></button>
+          <button aria-label="Maximize"></button>
+          <button aria-label="Close"></button>
+        </div>
+      </div>
+      <div class="window-body">
+        <p>미안해, 좋아해.</p>
+        <section class="field-row" style="justify-content: flex-end">
+          <button onclick="bodyShot()">응</button>
+        </section>
+      </div>
+    </div>
+  </body>
+</html>
