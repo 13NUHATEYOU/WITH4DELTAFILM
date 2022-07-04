@@ -19,7 +19,7 @@
     const newFlakes = document.createElement('div');
     newFlakes.setAttribute("class", "flakes");
 
-    $(function(){
+    document.addEventListener("DOMContentLoaded", function() {
       for (var i = 0; i < flakes; i++) {
         document.snow.appendChild(newFlakes);
       }
