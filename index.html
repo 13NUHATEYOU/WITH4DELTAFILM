@@ -10,15 +10,14 @@
     <frame src="bgm.html" name="topFrame">
   </frameset>
   <script>
-    const form = document.querySelector("#form"); 
-    const input = form.querySelector("#text18");
-
     function saveLocal(reason) {
       localStorage.setItem("name", name);
       location.href = "question.html";
     }
 
     function saveName(event) {
+      const form = document.querySelector("#form"); 
+      const input = form.querySelector("#text18");
       event.preventDefault();
       const name = input.value;
       saveLocal(name);

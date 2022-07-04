@@ -7,15 +7,14 @@
     <link rel="stylesheet" href="https://unpkg.com/98.css@0.1.4/build/98.css" />
   </head>
   <script>
-    const form = document.querySelector("#form"); 
-    const input = form.querySelector("#text18");
-
     function saveLocal(reason) {
       localStorage.setItem("reason", reason);
       location.href = "ok.html";
     }
 
     function saveReason(event) {
+      const form = document.querySelector("#form"); 
+      const input = form.querySelector("#text18");
       event.preventDefault();
       const reason = input.value;
       saveLocal(reason);
