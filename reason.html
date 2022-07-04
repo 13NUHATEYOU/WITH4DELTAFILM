@@ -8,9 +8,7 @@
   </head>
   <script>
     function saveReason() {
-      var form = document.querySelector("#form"); 
-      var input = document.querySelector("#text18");
-      var reason = input.value;
+      var reason = document.getElementById("text18").value;
       if (reason == "" || reason == null) {
         alert("이유를 말하여 주십시오.");
         return;

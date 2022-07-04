@@ -8,9 +8,7 @@
   </head>
   <script>
     function saveName() {
-      var form = document.querySelector("#form"); 
-      var input = document.querySelector("#text18");
-      var name = input.value;
+      var name = document.getElementById("text18").value;
       if (name == "" || name == null) {
         alert("이름을 말하여 주십시오.");
         return;
