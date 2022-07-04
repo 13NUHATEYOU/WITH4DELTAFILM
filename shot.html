@@ -16,26 +16,25 @@
 <script>
     function bodyShot() {
         html2canvas(document.body).then(function (canvas) {
-            drawImg(canvas.toDataURL('image/png'));
-            saveAs(canvas.toDataURL(), 'file-name.png');
+            save(canvas);
         }).catch(function (err) {
         });
     }
 
-    function saveAs(uri, fileName) {
-        var link = document.createElement('a');
-        if (typeof link.download === 'string') {
-            link.href = uri;
-            link.download = fileName;
-            document.body.appendChild(link);
-            link.click();
-            document.body.removeChild(link);
+    function save(canvas) {
+        if (navigator.msSaveBlob) {
+            var blob = canvas.msToBlob();
+            return navigator.msSaveBlob(blob, '미래역에서.png');
         } else {
-            window.open(uri);
+            var el = document.getElementById("target");
+            el.href = canvas.toDataURL("image/png");
+            el.download = "미래역에서.png";
+            el.click();
         }
     }
 </script>
   <body>
+    <a id="target" style="display: none"></a>
     <div class="window" style="margin: 32px; width: 250px;">
       <div class="title-bar">
         <div class="title-bar-text">
@@ -51,7 +50,7 @@
       <div class="window-body">
         <p>미안해, 좋아해.</p>
         <section class="field-row" style="justify-content: flex-end">
-          <button onclick="bodyShot()">응</button>
+          <button onclick="bodyShot();">응</button>
         </section>
       </div>
     </div>
