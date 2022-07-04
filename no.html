@@ -3,7 +3,7 @@
   <head>
     <title>조절중.</title>
     <meta charset="UTF-8" />
-    <link rel="shortcut icon" type="image/x-icon" href="{{ '/favicon.ico' | prepend: site.baseurl }}" >
+    <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico?">
     <link rel="stylesheet" href="https://unpkg.com/98.css@0.1.4/build/98.css" />
   </head>
 <style>
@@ -45,7 +45,7 @@ body {
         var minutes = date.getMinutes();
         var seconds = date.getSeconds();
         clockTarget.innerText = month+1 + "월 " + clockDate + "일 " +
-        hours < 10 ? 0 + hours : hours + minutes < 10 ? 0 + minutes : minutes + seconds < 10 ? 0 + seconds : seconds
+        (hours < 10 ? 0 + hours : hours) + (minutes < 10 ? 0 + minutes : minutes) + (seconds < 10 ? 0 + seconds : seconds);
     }
     
     function init() {
