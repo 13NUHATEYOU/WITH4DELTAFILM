@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>조절중.</title>
+    <meta charset="UTF-8" />
+    <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+    <link rel="stylesheet" href="https://unpkg.com/98.css@0.1.4/build/98.css" />
+  </head>
+<style>
+body { 
+  background-image: url('go_background.png');
+  background-repeat : no-repeat;
+}
+</style>
+<script>
+var clockTarget = document.getElementById("clock");
+function clock() {
+    var date = new Date();
+    var month = date.getMonth();
+    var clockDate = date.getDate();
+    var day = date.getDay();
+    var hours = date.getHours();
+    var minutes = date.getMinutes();
+    var seconds = date.getSeconds();
+    clockTarget .innerText = `${month+1}월 ${clockDate}일 ${week[day]}요일` +
+    `${hours < 10 ? `0${hours}` : hours}:${minutes < 10 ? `0${minutes }`  : minutes }:${seconds < 10 ? `0${seconds }`  : seconds }`;
+}
+
+function init() {
+clock();
+setInterval(clock, 1000);
+}
+
+init();
+</script>
+  <body>
+    <div class="window" style="margin: 32px; width: 250px;">
+      <div class="title-bar">
+        <div class="title-bar-text">
+          소중한 당신에게.
+        </div>
+
+        <div class="title-bar-controls">
+          <button aria-label="Minimize"></button>
+          <button aria-label="Maximize"></button>
+          <button aria-label="Close"></button>
+        </div>
+      </div>
+      <div class="window-body">
+        <p>그럼 기다려 줄게.</p>
+        <section class="field-row" style="justify-content: flex-end">
+          <span id="clock">00:00</span>
+          <button onclick="location.href='exit.html'">이제 갈게.</button>
+        </section>
+      </div>
+    </div>
+  </body>
+</html>
