@@ -22,15 +22,10 @@
     }
 
     function save(canvas) {
-        if (navigator.msSaveBlob) {
-            var blob = canvas.msToBlob();
-            return navigator.msSaveBlob(blob, '미래역에서.png');
-        } else {
             var el = document.getElementById("target");
             el.href = canvas.toDataURL("image/png");
             el.download = "미래역에서.png";
             el.click();
-        }
     }
 </script>
   <body>
