@@ -14,7 +14,7 @@
 
     function saveReason(event) {
       const form = document.querySelector("#form"); 
-      const input = form.querySelector("#text18");
+      const input = form.getElementsByClassName("text18");
       const reason = input.value;
       saveLocal(reason);
     }
