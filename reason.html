@@ -9,7 +9,7 @@
   <script>
     const form = document.querySelector("#form"); 
     const input = document.querySelector("#text18");
-    form.addEventListener("submit", saveReason);
+
     function saveReason(event) {
       const reason = input.value;
       if (reason == "" || reason == null) {
@@ -38,7 +38,7 @@
         <p>이유가 무엇입니까?</p>
       </div>
     </div>
-  <form id="form">
+  <form id="form" action="saveReason();">
     <div class="field-row-stacked" style="width: 200px; margin: 32px;">
       <label for="text18">이곳에 쓰십시오.</label>
       <input id="text18" type="text"/> <input type="submit" style="width: 75px;"/>
