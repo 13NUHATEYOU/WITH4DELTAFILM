@@ -13,8 +13,8 @@
     }
 
     function saveName(event) {
-      const form = document.querySelector("#form"); 
-      const input = form.getElementsByClassName("text18");
+      const form = document.getElementById("form"); 
+      const input = form.getElementById("text18");
       const name = input.value;
       saveLocal(name);
     }
