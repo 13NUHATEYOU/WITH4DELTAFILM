@@ -16,16 +16,12 @@
 <script>
     function bodyShot() {
         html2canvas(document.body).then(function (canvas) {
-            save(canvas);
-        }).catch(function (err) {
-        });
-    }
-
-    function save(canvas) {
             var el = document.getElementById("target");
             el.href = canvas.toDataURL("image/png");
             el.download = "미래역에서.png";
             el.click();
+        }).catch(function (err) {
+        });
     }
 </script>
   <body>
