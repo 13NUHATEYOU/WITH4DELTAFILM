@@ -12,6 +12,10 @@
     form.addEventListener("submit", saveReason);
     function saveReason(event) {
       const reason = input.value;
+      if (reason == "" || reason == null) {
+        alert("이유를 말하여 주십시오.");
+        return;
+      }
       localStorage.setItem("reason", reason);
       window.location.href = "ok.html";
     }

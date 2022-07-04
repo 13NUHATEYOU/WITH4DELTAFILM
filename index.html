@@ -12,6 +12,10 @@
     form.addEventListener("submit", saveName);
     function saveName(event) {
       const name = input.value;
+      if (name == "" || name == null) {
+        alert("이름을 말하여 주십시오.");
+        return;
+      }
       localStorage.setItem("name", name);
       window.location.href = "question.html";
     }
