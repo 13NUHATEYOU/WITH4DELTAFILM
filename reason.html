@@ -7,11 +7,10 @@
     <link rel="stylesheet" href="https://unpkg.com/98.css@0.1.4/build/98.css" />
   </head>
   <script>
-    const form = document.querySelector("#form"); 
-    const input = document.querySelector("#text18");
-
     function saveReason() {
-      const reason = input.value;
+      var form = document.querySelector("#form"); 
+      var input = document.querySelector("#text18");
+      var reason = input.value;
       if (reason == "" || reason == null) {
         alert("이유를 말하여 주십시오.");
         return;
